@@ -3,3 +3,129 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Raleway;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.mainbg {
+  background-color: #454f5b;
+}
+.main {
+  height: 44px;
+  padding-top: 9px;
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: Raleway;
+}
+.main p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.12em;
+  width: 595px;
+  margin-left: 452px;
+}
+.main button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.12em;
+  width: 256px;
+  text-decoration: underline;
+  background-color: #454f5b;
+  color: #ffffff;
+  border: none;
+  margin-left: 97px;
+}
+/* header  qism*/
+.header {
+  position: fixed;
+  padding: 20px 100px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0px -1px 0px 0px #c4cdd5 inset;
+}
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .nav-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+  margin-left: 101px;
+}
+.nav-list a {
+  width: 77px;
+  height: 24px;
+  color: #161c24;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.87px;
+}
+.ulmain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.logotip {
+  display: flex;
+  margin-left: 283px;
+  align-items: center;
+}
+.logotip h4 {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.48px;
+}
+.logotip img {
+  margin-left: 30px;
+  cursor: pointer;
+}
+.space {
+  height: 104px;
+  width: 100%;
+}
+/* hearo qism */
+.hero__container {
+  display: flex;
+  align-items: center;
+}
+.hero__container a {
+  width: 138px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #141414;
+  margin-bottom: 40px;
+}
+.hero__container a span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 50%;
+}
+.hero__container h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  width: 456px;
+  height: 42px;
+}

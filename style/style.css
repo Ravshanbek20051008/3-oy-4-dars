@@ -388,6 +388,7 @@ header .nav-list ul {
 }
 .kodliq {
   display: flex;
+  margin-left: 16px;
 }
 .kodliq h2 {
   margin-top: 81px;
@@ -396,6 +397,7 @@ header .nav-list ul {
   font-size: 32px;
   font-weight: 600;
   line-height: 42px;
+  margin-bottom: 24px;
 }
 .kodliq p {
   font-size: 18px;
@@ -403,11 +405,60 @@ header .nav-list ul {
   line-height: 32px;
   width: 605px;
   height: 96px;
+  margin-bottom: 24px;
+  color: #454f5b;
 }
 .dver1 {
   display: flex;
   align-items: center;
 }
-.ovozli1 {
-  display: flex;
+.dver1 h3 {
+  width: 235px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+  margin-left: 12px;
+  margin-top: 7px;
+}
+.dver1 img {
+  width: 27px;
+  height: 28px;
+  padding: 6px 5px 6px 4px;
+  margin-top: -17px;
+}
+.kodliq__img {
+  margin-left: 30px;
+  margin-bottom: 82px;
+}
+
+.kodliq__title {
+  margin-left: 30px;
+  margin-top: 45px;
+}
+
+.footer__container {
+  width: 1440px;
+  height: 332px;
+  text-align: center;
+  padding-left: 90px;
+  margin-top: 100px;
+  background-color: #f2f8ff;
+}
+.footer__container h1 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 62px;
+  width: 465px;
+  height: 62px;
+  margin-bottom: 24px;
+}
+.footer__container p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 518px;
+  height: 52px;
+  margin-bottom: 24px;
 }

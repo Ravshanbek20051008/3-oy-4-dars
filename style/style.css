@@ -23,6 +23,9 @@ button {
 }
 .mainbg {
   background-color: #454f5b;
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
 }
 .main {
   height: 44px;
@@ -61,6 +64,8 @@ button {
   width: 100%;
   margin: 0 auto;
   box-shadow: 0px -1px 0px 0px #c4cdd5 inset;
+  margin-top: 45px;
+  background-color: #ffffff;
 }
 .header__container {
   display: flex;
@@ -111,6 +116,7 @@ header .nav-list ul {
 /* hearo qism */
 .hero__container {
   padding: 0 100px;
+  margin-top: 45px;
 }
 .hero__container a {
   width: 148px;
@@ -350,6 +356,58 @@ header .nav-list ul {
 .yakun .zamok:nth-child(1) {
   margin-bottom: 40px;
 }
-.yakun .zamok:nth-child(2) {
+.yakun .zamok:nth-child(3) {
   margin-bottom: 170px;
+}
+.nedavno__container {
+  width: 1242px;
+  height: 552px;
+  margin-bottom: 96px;
+}
+.nedavno__container h1 {
+  margin-left: 15px;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 62px;
+  width: 1074px;
+  height: 62px;
+  margin-bottom: 64px;
+}
+.zamok--list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zamok--list p {
+  margin-top: 280px;
+}
+
+.ovozliqulf__container {
+  width: 1240px;
+  height: 1210px;
+}
+.kodliq {
+  display: flex;
+}
+.kodliq h2 {
+  margin-top: 81px;
+  width: 605px;
+  height: 42px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+}
+.kodliq p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 605px;
+  height: 96px;
+}
+.dver1 {
+  display: flex;
+  align-items: center;
+}
+.ovozli1 {
+  display: flex;
 }
